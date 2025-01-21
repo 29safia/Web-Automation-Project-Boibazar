@@ -10,7 +10,7 @@ import org.testng.annotations.BeforeSuite;
 
 public class Base_Driver {
 
-    public static String url ="";
+    public static String url ="https://opensource-demo.orangehrmlive.com/web/index.php/auth/login";
     public static WebDriver driver;
 
     @BeforeSuite
@@ -43,7 +43,7 @@ public class Base_Driver {
         }
 
         // Set the WebDriver instance in the PageDriver
-        //PageDriver.getInstance().setDriver(driver);
+        PageDriver.getInstance().setDriver(driver);
     }
 
     // Annotate the method to indicate it should run after the entire test suite

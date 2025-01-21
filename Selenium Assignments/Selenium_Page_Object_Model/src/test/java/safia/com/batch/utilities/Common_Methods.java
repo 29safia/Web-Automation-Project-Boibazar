@@ -5,17 +5,22 @@ import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import safia.com.batch.basedrivers.Base_Driver;
 import safia.com.batch.basedrivers.PageDriver;
 
 import java.time.Duration;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Common_Methods {
+public class Common_Methods extends Base_Driver {
 
     /*************************
      * Page Utilities *
      *************************/
+//wait
+    public void sleep() throws InterruptedException {
+        Thread.sleep(5000);
+    }
 
     public String getCurrentPageUrl() {
         return PageDriver.getCurrentDriver().getCurrentUrl();
