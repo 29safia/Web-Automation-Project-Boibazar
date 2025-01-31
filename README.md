@@ -1,6 +1,6 @@
-Web_Automation_Using_Selenium
+Web_Automation_Project
 
-I'm thrilled to present my most recent browser testing automation script! This project shows how to use Selenium WebDriver in Java to run a browser, check page titles, and more.
+I'm thrilled to present my most recent project! 
 
 ## Selenium_Basics
 Selenium is an effective tool for programmatically managing web browsers.Its scripts are written in a variety of languages including Python, Java, C#, and others, and it functions in all browsers and on all major operating systems.Java will be used in our work.
@@ -23,23 +23,5 @@ Many automation frameworks, including Selenium, are built on the foundation of J
                3. https://mvnrepository.com/artifact/org.testng/testng]
 
 
-# Table of Contents
 
-1.  Configure cross browser in Selenium
-2.  Launching Browsers In Headless Mode
-3.  Run Chrome tests in headless mode in Selenium
-4.  Run Firefox tests in headless mode in Selenium
-5.  Run Edge tests in headless mode in Selenium
-6.  TestNG 
-7.  Browser Commands
-8.  Locating Web Elements 
-9.  Interacting with Web Elements
-10. Navigating Through Web Pages
-11. Assertions
-12. Action & Select Class
-13. Handling alerts and pop-ups
-14. Waits
-15. Handling Frames
-16. Working with Windows and Tabs
-17. Working with HTML Tables
 
