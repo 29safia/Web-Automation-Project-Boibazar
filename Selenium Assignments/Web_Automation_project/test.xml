@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Boi-Bazar">
+    <test name="Test">
+        <classes>
+            <class name="safia.com.batch.tests.homePage_Test"/>
+            <class name="safia.com.batch.tests.authorPage_Test"/>
+            <class name="safia.com.batch.tests.bookDetailsPage_Test"/>
+            <class name="safia.com.batch.tests.cartPage_Test"/>
+        </classes>
+    </test>
+</suite>
